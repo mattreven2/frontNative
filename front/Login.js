@@ -32,7 +32,7 @@ export default function Login({ navigation }) {
       <Text style={styles.title}>Iniciar Sesión</Text>
 
       {/* Texto "Correo" encima del campo de correo */}
-      <Text style={styles.label}>Correo</Text>
+      <Text style={styles.label}>Correo:</Text>
       <TextInput
         style={styles.input}
         placeholder="nombre.apellido@alumnos.ucn.cl"
